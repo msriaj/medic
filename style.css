@@ -144,7 +144,7 @@ p {
 }
 
 .service-content {
- 
+
     padding: 20px;
 }
 
@@ -203,14 +203,30 @@ footer {
 .f-text {
     margin-top: 10px;
 }
-.info-blog a{
+
+.info-blog a {
     color: #fff !important;
 }
-.testimonial img{
+
+.testimonial img {
     width: 70px;
     height: 70px;
 }
+
 .f-logo {
     height: 50px;
     width: 150px;
+}
+
+.nav-link {
+    color: #278BEC;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-link:hover,
+.active .nav-link {
+    color: #278BEC;
+    font-weight: 700;
+    border-bottom: #278BEC 3px solid;
 }
